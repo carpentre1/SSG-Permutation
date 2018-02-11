@@ -109,6 +109,8 @@ Count the total number of objects in the set and then factorialize that number. 
             resultsPanel.SetActive(true);
             results.text = "Correct!\nThere are four items in this set.\n4! = 4 x 3 x 2 x 1 = 24.";
 
+            ToggleAnswerVisibility(false);
+
             explanation.text = "Congratulations! You understand permutations and how to find the total number of possible permutations in a set.";
         }
     }
